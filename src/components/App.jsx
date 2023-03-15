@@ -36,7 +36,6 @@ function App() {
       <Header />
       <CreateArea funcion={Agregar} />
       {notasFinales}
-      <Footer />
     </div>
   );
 }

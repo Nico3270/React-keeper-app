@@ -1,11 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import DifferenceIcon from '@mui/icons-material/Difference';
 
 function Header() {
     
   return (
     <header>
-      <h1>Keeper</h1>
+    
+      <h1> <DifferenceIcon />  Keeper</h1>
     </header>
   );
 }
